@@ -1,6 +1,6 @@
 cask "meeting-pilot" do
-  version "0.1.2"
-  sha256 "dc6ec2aeca9fecbfd3a1d4c15cae8efbb875e39062e834263a8941fde5e6a487"
+  version "0.2.0"
+  sha256 "20d1f8be3939aa141fd8454811a301003e05f8e10c032ccc3b82a69c97023d4f"
 
   url "https://github.com/mard4/meeting-pilot/releases/download/v#{version}/MeetingPilot.dmg"
   name "Meeting Pilot"
