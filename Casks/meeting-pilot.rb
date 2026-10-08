@@ -1,6 +1,6 @@
 cask "meeting-pilot" do
-  version "0.2.1"
-  sha256 "28a193c8c5e8bc2644140ce892ee4a42b7c437e56bf8451375bfe4fe59973674"
+  version "0.3.0"
+  sha256 "3c02a29707a5ea5af082cc1653dceaa6884e70c589e69aebd779270bc259a7f9"
 
   url "https://github.com/mard4/meeting-pilot/releases/download/v#{version}/MeetingPilot.dmg"
   name "Meeting Pilot"
@@ -24,9 +24,4 @@ cask "meeting-pilot" do
     "~/Library/Preferences/io.github.mard4.MeetingPilot.plist",
     "~/Library/Saved Application State/io.github.mard4.MeetingPilot.savedState",
   ]
-
-  caveats <<~EOS
-    Meeting Pilot is not notarized. The first time you open it, macOS will block it:
-    go to System Settings > Privacy & Security and click "Open Anyway".
-  EOS
 end
